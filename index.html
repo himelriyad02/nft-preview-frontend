@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
+
 <body>
+  <div class="flex-container">
+    <div class="bluebox">
+      <img class="main-image" src="/images/image-equilibrium.jpg" alt="image of a box">
+      <p class="textone">Equilibrium #3459</p>
+      <p class="texttwo">Our equilibrium collection promotes balance and calm</p>
 
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
+      <p class="p1"><img src="/images/icon-ethereum.svg" alt="icon">0.041 ETH</p>
+      <p class="p2>"><img src="/images/icon-clock.svg" alt="clock icon">3 days left</p>
   
-  Creation of Jules Wyvern
+      <hr>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <p>
+        <img class="avatar" src="/images/image-avatar.png" alt="another human">
+        <span style="color: hsl(215, 51%, 70%);">Creation of</span> <span id="james">James Wyvern</span>
+      </p>
+      
+    </div>
   </div>
+
 </body>
+
 </html>

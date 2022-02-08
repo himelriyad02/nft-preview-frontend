@@ -1,0 +1,49 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bluebox {
+  width: 250px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  text-align: left;
+  border-radius: 5px;
+}
+.main-image {
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.textone {
+  color: white;
+  font-size: 18px;
+  display: block;
+}
+.texttwo {
+  color: hsl(215, 51%, 70%);
+  display: block;
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  width: 100%;
+  height: 1px; 
+  border: none;
+}
+.avatar {
+  width: 10%;
+  float: left;
+  border: 2px solid white;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+#james {
+  color: white;
+}
+#james:hover , .textone:hover {
+  color: hsl(178, 100%, 50%);
+}
