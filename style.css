@@ -48,9 +48,9 @@ hr {
 #james:hover , .textone:hover {
   color: hsl(178, 100%, 50%);
 }
-.eye-image {
+/* .eye-image {
   display: none;
 }
 .main-image:hover .eye-image{
   display: block;
-}
+} */
