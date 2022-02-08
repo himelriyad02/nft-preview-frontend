@@ -1,5 +1,6 @@
 body {
   background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -13,6 +14,8 @@ body {
   padding: 15px;
   text-align: left;
   border-radius: 5px;
+  box-shadow: 1px 5px 0px 5px hsl(215, 63%, 11%);
+  box-shadow: 2px 5px 0px 5px hsl(216, 50%, 16%);
 }
 .main-image {
   margin: auto;
@@ -22,11 +25,9 @@ body {
 .textone {
   color: white;
   font-size: 18px;
-  display: block;
 }
 .texttwo {
   color: hsl(215, 51%, 70%);
-  display: block;
 }
 hr {
   background-color: hsl(215, 32%, 27%);
@@ -46,4 +47,10 @@ hr {
 }
 #james:hover , .textone:hover {
   color: hsl(178, 100%, 50%);
+}
+.eye-image {
+  display: none;
+}
+.main-image:hover .eye-image{
+  display: block;
 }

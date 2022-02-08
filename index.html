@@ -8,6 +8,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
 
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
@@ -16,11 +18,14 @@
   <div class="flex-container">
     <div class="bluebox">
       <img class="main-image" src="/images/image-equilibrium.jpg" alt="image of a box">
+      <!-- <img class="eye-image" src="/images/icon-view.svg" alt="eye icon"> -->
       <p class="textone">Equilibrium #3459</p>
       <p class="texttwo">Our equilibrium collection promotes balance and calm</p>
 
-      <p class="p1"><img src="/images/icon-ethereum.svg" alt="icon">0.041 ETH</p>
-      <p class="p2>"><img src="/images/icon-clock.svg" alt="clock icon">3 days left</p>
+      <div style="display: flex; justify-content: space-between;">
+        <p class="p1"><img style="margin-right: 5px;" src="/images/icon-ethereum.svg" alt="icon"><span style="color: hsl(178, 100%, 50%);">0.041 ETH</span></p>
+        <p class="p2>"><img style="margin-right: 5px;" src="/images/icon-clock.svg" alt="clock icon"><span style="color: hsl(215, 51%, 70%);">3 days left</span></p>
+      </div>
   
       <hr>
 
