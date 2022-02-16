@@ -31,6 +31,7 @@ Users should be able to:
 
 - Solution URL: [https://github.com/himelriyad02/nft-preview-frontend]
 - Live Site URL: [https://himelriyad02.github.io/nft-preview-frontend/]
+- Interesting trick: [https://www.w3schools.com/howto/howto_css_image_overlay.asp]
 
 ## My process
 
