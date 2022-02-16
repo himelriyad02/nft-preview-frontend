@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
 
 ## Table of contents
 
@@ -43,17 +43,54 @@ Users should be able to:
 
 ### What I learned
 
-Practiced CSS flexbox.
-
-To see how you can add code snippets, see below:
+Practiced CSS flexbox. 
+Learned ABOUT IMAGE OVERLAY (interesting topic).  
 
 ```html
-<div style="display: flex; justify-content: space-between;"></div>
+<div class="backimage">
+  <img class="main-image" src="./images/image-equilibrium.jpg" alt="image of a box">
+  <div class="frontimage">
+     <img src="./images/icon-view.svg" class="second-image" alt="eye icon">
+  </div>
+</div>
+<div style="display: flex; justify-content: space-between;">.....k</div>
+```
+
+```CSS
+.backimage {
+  position: relative;
+  width: 100%;
+}
+.main-image {
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.frontimage {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.backimage:hover .main-image {
+  opacity: 0.3;
+}
+.backimage:hover .frontimage {
+  opacity: 1;
+}
 ```
 
 ### Continued development
 
-Flexbox, Hover.
+Flexbox, Hover, CSS image overlay, CSS transform, CSS translate.
 
 ## Author
 
