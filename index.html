@@ -10,29 +10,36 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 
-
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 
 <body>
   <div class="flex-container">
-    <div class="bluebox">
-      <img class="main-image" src="./images/image-equilibrium.jpg" alt="image of a box">
-      <p class="textone">Equilibrium #3459</p>
+    <main class="bluebox">
+
+      <div class="backimage">
+        <img class="main-image" src="./images/image-equilibrium.jpg" alt="image of a box">
+        <div class="frontimage">
+          <img src="./images/icon-view.svg" alt="eye icon">
+        </div>
+      </div>
+
+      <h1 class="textone">Equilibrium #3459</h1>
       <p class="texttwo">Our equilibrium collection promotes balance and calm</p>
 
-      <div style="display: flex; justify-content: space-between;">
+      <div style="display: flex; justify-content: space-between; align-items: center; ">
         <p class="p1"><img style="margin-right: 5px;" src="./images/icon-ethereum.svg" alt="icon"><span style="color: hsl(178, 100%, 50%);">0.041 ETH</span></p>
+
         <p class="p2>"><img style="margin-right: 5px;" src="./images/icon-clock.svg" alt="clock icon"><span style="color: hsl(215, 51%, 70%);">3 days left</span></p>
       </div>
   
-      <hr>
+      <hr style="margin-bottom: 5%;">
 
-      <p>
+      <footer style="display: flex; align-items: center;">
         <img class="avatar" src="./images/image-avatar.png" alt="another human">
-        <span style="color: hsl(215, 51%, 70%);">Creation of</span> <span id="james">James Wyvern</span>
-      </p>
-    </div>
+        <span style="margin-right: 4px;">Creation of</span> <span id="james">James Wyvern</span>
+      </footer>
+    </main>
   </div>
 </body>
 </html>
